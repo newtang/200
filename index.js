@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
 	res.status(200).end();
 });
 
+app.post('/', function(req, res) {
+	res.status(200).end();
+});
+
 app.listen(port, function() {
 	console.log("Listening on " + port);
 });	
